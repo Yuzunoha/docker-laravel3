@@ -19,6 +19,14 @@
   # phpコンテナで
   php artisan key:generate
   ```
-
+- DB_HOSTはコンテナ名でいける
+  ```
+  DB_CONNECTION=mysql
+  DB_HOST=db-host
+  DB_PORT=3306
+  DB_DATABASE=database
+  DB_USERNAME=docker
+  DB_PASSWORD=docker
+  ```
 
 [link1]:https://qiita.com/A-Kira/items/1c55ef689c0f91420e81
