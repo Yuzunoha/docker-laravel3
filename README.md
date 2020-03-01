@@ -28,5 +28,6 @@
   DB_USERNAME=docker
   DB_PASSWORD=docker
   ```
+- migrationファイルで管理するから`docker/db/data`あたりは除外
 
 [link1]:https://qiita.com/A-Kira/items/1c55ef689c0f91420e81
